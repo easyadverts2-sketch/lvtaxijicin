@@ -42,7 +42,7 @@ export function ReviewsSection() {
               aria-hidden={i !== index}
             >
               <p className="text-lg text-neutral-700 dark:text-neutral-300">
-                „{r.text}"
+                „{r.text}&rdquo;
               </p>
               <p className="mt-3 font-medium text-neutral-900 dark:text-white">
                 {r.name}
