@@ -23,12 +23,13 @@ export function FaqSection() {
   ];
 
   return (
-    <section className="border-t border-neutral-200 bg-white py-12 dark:border-neutral-800 dark:bg-neutral-900" aria-labelledby="faq-heading">
+    <section className="border-t border-neutral-200 bg-white py-16 dark:border-neutral-800 dark:bg-neutral-900 sm:py-20" aria-labelledby="faq-heading">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
-        <h2 id="faq-heading" className="text-2xl font-bold text-neutral-900 dark:text-white">
+        <h2 id="faq-heading" className="text-3xl font-extrabold text-neutral-900 dark:text-white sm:text-4xl">
           Časté dotazy
         </h2>
-        <dl className="mt-8 space-y-6">
+        <p className="mt-3 text-neutral-600 dark:text-neutral-400">Krátké odpovědi na nejčastější dotazy.</p>
+        <dl className="mt-10 space-y-8">
           {faqs.map((faq, i) => (
             <div key={i}>
               <dt className="font-medium text-neutral-900 dark:text-white">

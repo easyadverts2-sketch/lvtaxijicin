@@ -4,7 +4,10 @@ import { OrderForm } from "@/components/OrderForm";
 
 export function QuickOrderSection() {
   return (
-    <section className="bg-neutral-50 py-12 sm:py-16 dark:bg-neutral-900" aria-labelledby="quick-order-heading">
+    <section
+      className="border-t border-neutral-200 bg-neutral-50 py-16 dark:border-neutral-800 dark:bg-neutral-950 sm:py-20"
+      aria-labelledby="quick-order-heading"
+    >
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <h2 id="quick-order-heading" className="text-2xl font-bold text-neutral-900 dark:text-white">
           Objednejte taxi online

@@ -37,7 +37,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col font-sans antialiased">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pb-28 sm:pb-6">{children}</main>
         <Footer />
         <StickyCallButton />
         <JsonLdTaxiService />
