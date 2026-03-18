@@ -41,9 +41,10 @@ export function Header() {
           <a
             href={`tel:${business.phoneE164}`}
             onClick={trackClickCall}
-            className="inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 focus-ring"
+            className="inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-4 py-3 text-base font-semibold text-black shadow-md hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 dark:focus:ring-offset-neutral-950 sm:px-6"
           >
-            Volat
+            <span className="hidden sm:inline">{business.phoneDisplay}</span>
+            <span className="sm:hidden">Volat</span>
           </a>
         </nav>
       </div>

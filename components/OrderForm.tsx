@@ -196,7 +196,7 @@ export function OrderForm({ prefill, onSuccess }: Props) {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500 disabled:opacity-50 focus-ring sm:px-8"
+        className="inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-6 py-3 text-base font-semibold text-black shadow-md hover:bg-yellow-300 disabled:opacity-50 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 dark:focus:ring-offset-neutral-800 sm:px-8"
       >
         {status === "sending" ? "Odesílám…" : "Odeslat objednávku"}
       </button>

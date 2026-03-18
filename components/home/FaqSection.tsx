@@ -2,10 +2,10 @@ export function FaqSection() {
   const faqs = [
     {
       q: "Jak se počítá cena?",
-      a: "Nástupní sazba 50 Kč a pak podle ujetých kilometrů: do 15 km 35 Kč/km, 15–30 km 29 Kč/km, nad 30 km 25 Kč/km. Kalkulačka na stránce ukazuje orientační cenu.",
+      a: "Nástupní sazba 50 Kč a pak podle ujetých kilometrů: do 15 km 35 Kč/km, 15–30 km 29 Kč/km, nad 30 km 25 Kč/km. Přesné ceny najdete v ceníku.",
     },
     {
-      q: "Můžu objednat předem?",
+      q: "Mohu objednat předem?",
       a: "Ano, napište do poznámky datum a čas a my to vyřídíme.",
     },
     {

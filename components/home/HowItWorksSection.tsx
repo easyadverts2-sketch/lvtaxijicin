@@ -1,6 +1,6 @@
 export function HowItWorksSection() {
   const steps = [
-    { num: 1, title: "Zavolejte nebo objednejte", text: "Zadejte trasu a kontakt. Můžete i jen zavolat." },
+    { num: 1, title: "Zavolejte nebo objednejte", text: "Zadejte cíl a kontakt. Můžete i jen zavolat." },
     { num: 2, title: "Potvrdíme jízdu", text: "Rychle vás vyzvedneme na zadaném místě." },
     { num: 3, title: "Dojeďte kam potřebujete", text: "Cena podle ceníku, platba na místě." },
   ];

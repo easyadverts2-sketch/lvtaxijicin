@@ -7,6 +7,7 @@ import { THEME_INIT_SCRIPT } from "./theme-init-script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { StickyCallButton } from "@/components/StickyCallButton";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-sans" });
 
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <StickyCallButton />
         <JsonLdTaxiService />
       </body>
     </html>

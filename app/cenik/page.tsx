@@ -66,13 +66,13 @@ export default function CenikPage() {
         </section>
 
         <p className="mt-10 text-neutral-600 dark:text-neutral-400">
-          Chcete si spočítat cenu pro vlastní trasu? Použijte kalkulačku na úvodní stránce.
+          Chcete objednat jízdu? Vyplňte formulář na úvodní stránce nebo nám zavolejte.
         </p>
         <Link
           href="/#objednavka"
-          className="mt-4 inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-6 py-3 text-base font-medium text-black hover:bg-yellow-500"
+          className="mt-4 inline-flex min-h-12 items-center justify-center rounded-lg bg-yellow-400 px-6 py-3 text-base font-semibold text-black shadow-md hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 dark:focus:ring-offset-neutral-950"
         >
-          Spočítat cenu
+          Objednat taxi
         </Link>
       </div>
     </div>
